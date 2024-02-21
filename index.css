@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1b244a;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 36px;
+    font-family: inherit;
+    color: #EEEEEE;
+    font-weight: 700;
+}
+
+.col-score {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.col-score h1 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+
+.increment-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+}
+
+.increment-buttons-container {
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.increment-btn {
+    border: 2px solid #9AABD8;
+    background-color: #1b244a;
+    color: #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#new-game-btn {
+    font-size: 24px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+#new-game-btn:hover {
+    background-color: #9AABD8;
+}
